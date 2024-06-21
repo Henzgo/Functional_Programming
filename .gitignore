@@ -1,5 +1,74 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# IntelliJ IDEA files
+*.iml
+*.ipr
+*.ids
+*.iws
+.idea/
 
-# Ignore Gradle build output directory
-build
+# Eclipse files
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+bin/
+
+# Netbeans
+nbactions.xml
+
+# Visual Studio Code
+.vscode
+
+# Maven
+target/
+
+# gradle files
+.gradle
+build/
+
+# ignore logfiles
+.log
+
+# OS dependant files
+.DSStore
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+*~
+# Thumbnails
+.*
+
+# compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# packages
+.7z
+#.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.xz
+*.lzma
+~$
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+# databases
+*.sqlite
